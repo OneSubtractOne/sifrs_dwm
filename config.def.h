@@ -34,7 +34,8 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	};
+	{ "steam",    NULL,       NULL,      1 << 8,	    0,		 -1 },
+};
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
@@ -63,7 +64,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi", "-show", "run", NULL };
-static const char *termcmd[]  = { "termite", "-e", "tmux", NULL };
+static const char *termcmd[]  = { "st", "-e", "tmux", NULL };
 static const char *firefox[] =  { "firefox", NULL };
 static const char *pass[] =     { "rofi-pass", NULL };
 static const char *upvol[] = { "amixer", "-q", "sset", "Master", "1%+", NULL };
