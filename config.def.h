@@ -11,12 +11,12 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = { "meslolgl:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#002B36";
-static const char col_gray2[]       = "#073642";
-static const char col_gray3[]       = "#839496";
-static const char col_gray4[]       = "#839496";
-static const char col_cyan[]        = "#073642";
-static const char col_cyan2[]	    = "#586E75";
+static const char col_gray1[]       = "#2E3440";
+static const char col_gray2[]       = "#3B4252";
+static const char col_gray3[]       = "#D8DEE9";
+static const char col_gray4[]       = "#D8DEE9";
+static const char col_cyan[]        = "#5e81ac";
+static const char col_cyan2[]	    = "#5e81ac";
 static const char *colors[][3]      = {
 
 	/*               fg         bg         border   */
